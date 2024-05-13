@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AlphaRM", "AlphaRM.dwproj", "{9DFC010D-AAF3-45F3-9135-092B580CD01D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DFC010D-AAF3-45F3-9135-092B580CD01D}.Development|Default.ActiveCfg = Development
+		{9DFC010D-AAF3-45F3-9135-092B580CD01D}.Development|Default.Build.0 = Development
+		{9DFC010D-AAF3-45F3-9135-092B580CD01D}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32C86243-1664-4303-BB38-AAEA4840679F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3405 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>АльфаРМ ИД SKU</ID>
+  <Name>АльфаРМ ИД SKU</Name>
+  <CreatedTimestamp>2023-02-04T10:22:31.21Z</CreatedTimestamp>
+  <LastSchemaUpdate>2023-02-04T10:22:31.21Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-14997" scrolltop="-8173" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="51" x="30559" y="16060" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_alpha_DI_periods" left="6317" top="11833" logicalid="16" controlid="1" masterid="0" hint1="0" hint2="0" width="5957" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000045170000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dim_v_alpha_DI_periods" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_alpharm_WDI" left="21365" top="6086" logicalid="17" controlid="2" masterid="0" hint1="0" hint2="0" width="5023" height="3538" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009f130000d20d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="fact_v_alpharm_WDI" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_alpha_wdiSellType" left="16440" top="12698" logicalid="18" controlid="3" masterid="0" hint1="0" hint2="0" width="6267" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00007b18000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dim_v_alpha_wdiSellType" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_alpha_DI_bricks" left="6839" top="6785" logicalid="19" controlid="4" masterid="0" hint1="0" hint2="0" width="6320" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b0180000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dim_v_alpha_DI_bricks_flat" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_alpha_big_tmp" left="7174" top="-2249" logicalid="20" controlid="5" masterid="0" hint1="0" hint2="0" width="5186" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004214000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dim_v_alpha_big_tmp" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="11974" top="8655" logicalid="21" controlid="6" masterid="0" hint1="0" hint2="0" width="9691" height="3840" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_alpharm_WDI-v_alpha_DI_periods]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="23" destattachpoint="28" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12274" y="12095" />
+              <point x="16819" y="12095" />
+              <point x="16819" y="8955" />
+              <point x="21365" y="8955" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="21374" top="9324" logicalid="22" controlid="7" masterid="0" hint1="0" hint2="0" width="1152" height="3874" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_alpharm_WDI-v_alpha_wdiSellType]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="18" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="21773" y="12698" />
+              <point x="21773" y="11161" />
+              <point x="22226" y="11161" />
+              <point x="22226" y="9624" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="12060" top="-148" logicalid="23" controlid="8" masterid="0" hint1="0" hint2="0" width="11016" height="6534" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_alpharm_WDI-v_alpha_big_tmp]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="2" sourceattachpoint="27" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12360" y="251" />
+              <point x="22776" y="251" />
+              <point x="22776" y="6086" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="12859" top="6648" logicalid="24" controlid="9" masterid="0" hint1="0" hint2="0" width="8806" height="957" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_alpharm_WDI-v_alpha_DI_bricks_flat]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="23" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13159" y="7047" />
+              <point x="17262" y="7047" />
+              <point x="17262" y="7305" />
+              <point x="21365" y="7305" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_alpharm_DI_SKU" left="-3130" top="5903" logicalid="25" controlid="10" masterid="0" hint1="0" hint2="0" width="5335" height="3496" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d7140000a80d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="fact_v_alpharm_DI_SKU" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1437" top="2052" logicalid="26" controlid="11" masterid="0" hint1="0" hint2="0" width="6037" height="4151" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_alpharm_DI_SKU-v_alpha_big_tmp]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="10" sourceattachpoint="34" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7174" y="2451" />
+              <point x="1737" y="2451" />
+              <point x="1737" y="5903" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1905" top="6648" logicalid="27" controlid="12" masterid="0" hint1="0" hint2="0" width="5234" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_alpharm_DI_SKU-v_alpha_DI_bricks_flat]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="10" sourceattachpoint="22" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6839" y="7047" />
+              <point x="4522" y="7047" />
+              <point x="4522" y="7101" />
+              <point x="2205" y="7101" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1863" top="9099" logicalid="28" controlid="13" masterid="0" hint1="0" hint2="0" width="8480" height="3396" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_alpharm_DI_SKU-v_alpha_DI_periods]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="10" sourceattachpoint="22" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6317" y="12095" />
+              <point x="-1563" y="12095" />
+              <point x="-1563" y="9399" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_alpha_DISellType" left="-1237" top="-1067" logicalid="29" controlid="14" masterid="0" hint1="0" hint2="0" width="5985" height="1927" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00006117000087070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dim_v_alpha_DISellType" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1394" top="361" logicalid="30" controlid="15" masterid="0" hint1="0" hint2="0" width="799" height="5842" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_alpharm_DI_SKU-v_alpha_DISellType]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="14" destid="10" sourceattachpoint="1" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-995" y="860" />
+              <point x="-995" y="3381" />
+              <point x="-1013" y="3381" />
+              <point x="-1013" y="5903" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-14997</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8173</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-3130</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-2249</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>51</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2024-05-13T04:33:12.943333Z</LastProcessed>
+  <State>Processed</State>
+  <Language>1033</Language>
+  <Collation>Cyrillic_General_CI_AS</Collation>
+  <Dimensions>
+    <Dimension>
+      <ID>Тип взвешенного ИД</ID>
+      <Name>Тип взвешенного ИД</Name>
+      <DimensionID>Тип взвешенного индекса</DimensionID>
+      <Attributes>
+        <Attribute>
+          <AttributeID>Тип взвешенного индекса</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension>
+      <ID>Тип линейного ИД</ID>
+      <Name>Тип линейного ИД</Name>
+      <DimensionID>Тип линейного индекса</DimensionID>
+      <Attributes>
+        <Attribute>
+          <AttributeID>Тип линейного индекса</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension>
+      <ID>Брики ИД</ID>
+      <Name>Брики ИД</Name>
+      <DimensionID>Брики Индексов Дистрибуции</DimensionID>
+      <Attributes>
+        <Attribute>
+          <AttributeID>Территория</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Уровень территории</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Parent Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Регион ОТС</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Регион ОБП</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Регион VC</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Регион RX-OTX</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Регион Ophtapharma</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Brick Id</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension>
+      <ID>Периоды ИД</ID>
+      <Name>Периоды ИД</Name>
+      <DimensionID>Периоды Индексов Дистрибуции</DimensionID>
+      <Attributes>
+        <Attribute>
+          <AttributeID>Период</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Год периода</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Тип периода</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Parent Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension>
+      <ID>Справочник АльфаРМ</ID>
+      <Name>Справочник АльфаРМ</Name>
+      <DimensionID>Справочник АльфаРМ</DimensionID>
+      <Attributes>
+        <Attribute>
+          <AttributeID>Classifier Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Trade Name Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>INN Group Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Dosage Group Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Form Product Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Consumer Packing Count</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Owner Trade Mark Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Is Bad</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>FTG Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATC Who Code</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Packer Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Drug Description</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Brand Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Owner Registration Certificate Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATC Ephmra Code</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Corporation Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Localization Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Is Other</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATC Baa Code</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute>
+          <AttributeID>NFC Code</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Total Volume Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Total Volume Count</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATC Ephmra Value Level1</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATC Ephmra Value Level2</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATC Ephmra Value Level3</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATC Ephmra Value Level4</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATCBAA Value Level1</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATCBAA Value Level2</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>NFC Value Level1</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>NFC Value Level2</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>NFC Value Level3</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATC Who Value Level1</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATC Who Value Level2</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATC Who Value Level3</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATC Who Value Level4</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>ATC Who Value Level5</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>SKU</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Is Otc</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Is Rx</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Markets</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Markets RZK</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Bausch Health Group Actual</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Bausch Health Group Total</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Бренд 1</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>SKU Name</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute>
+          <AttributeID>SKU Конечное</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Направление</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Market Department</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Case Promotion</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>HFM Code</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Код Group Level 6</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Is LS</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>BH SKU Id</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Goods Category Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Goods Section Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Classifier Id 1</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Bhtaste</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>B Htaste Category</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>B Hform</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>B Hpacksize</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>B Hagegroup</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy>
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy>
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy>
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+        <Hierarchy>
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <CubePermissions>
+    <CubePermission>
+      <ID>CubePermission</ID>
+      <Name>CubePermission</Name>
+      <CreatedTimestamp>2023-02-04T10:22:31.523333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2023-02-04T10:22:31.523333Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+  </CubePermissions>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>v Alpharm DI SKU</ID>
+      <Name>Линейный ИД SKU</Name>
+      <CreatedTimestamp>2023-02-04T10:22:31.24Z</CreatedTimestamp>
+      <LastSchemaUpdate>2023-02-04T10:22:31.24Z</LastSchemaUpdate>
+      <LastProcessed>2024-05-13T04:33:12.863333Z</LastProcessed>
+      <State>Processed</State>
+      <Measures>
+        <Measure>
+          <ID>Distr Index 1</ID>
+          <Name>Simple DI SKU</Name>
+          <AggregateFunction>None</AggregateFunction>
+          <DataType>Double</DataType>
+          <Source>
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding">
+              <TableID>fact_v_alpharm_DI_SKU</TableID>
+              <ColumnID>DistrIndex</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+          <FormatString>#,##0.0%</FormatString>
+        </Measure>
+        <Measure>
+          <ID>Линейный ИД SKU Count</ID>
+          <Name>Линейный ИД SKU Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source>
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding">
+              <TableID>fact_v_alpharm_DI_SKU</TableID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+          <FormatString>#,##0</FormatString>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedSize>5499402721</EstimatedSize>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension">
+          <CubeDimensionID>Справочник АльфаРМ</CubeDimensionID>
+          <Cardinality>One</Cardinality>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Classifier Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>fact_v_alpharm_DI_SKU</TableID>
+                    <ColumnID>SKUid</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Trade Name Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>TradeNameId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>INN Group Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>INNGroupId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Dosage Group Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>DosageGroupId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Form Product Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>FormProductId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Consumer Packing Count</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ConsumerPackingCount</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Owner Trade Mark Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>OwnerTradeMarkId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Is Bad</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>IsBad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>FTG Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>FTGId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Who Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCWhoCode</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Packer Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>PackerId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Drug Description</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>1000</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>DrugDescription</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Brand Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>300</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Brand</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Owner Registration Certificate Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>OwnerRegistrationCertificateId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Ephmra Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCEphmraCode</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Corporation Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>300</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Corporation</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Localization Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>LocalizationId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Is Other</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>IsOther</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Baa Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCBaaCode</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>NFC Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>NFCCode</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Total Volume Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>TotalVolumeId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Total Volume Count</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>TotalVolumeCount</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Ephmra Value Level1</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCEphmra_Value_level1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Ephmra Value Level2</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCEphmra_Value_level2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Ephmra Value Level3</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCEphmra_Value_level3</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Ephmra Value Level4</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCEphmra_Value_level4</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATCBAA Value Level1</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCBAA_Value_level1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATCBAA Value Level2</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCBAA_Value_level2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>NFC Value Level1</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>NFC_Value_level1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>NFC Value Level2</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>NFC_Value_level2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>NFC Value Level3</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>NFC_Value_level3</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Who Value Level1</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCWho_Value_level1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Who Value Level2</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCWho_Value_level2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Who Value Level3</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCWho_Value_level3</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Who Value Level4</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCWho_Value_level4</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Who Value Level5</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCWho_Value_level5</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>SKU</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>1024</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>SKU</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Is Otc</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>IsOtc</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Is Rx</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>IsRx</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Markets</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Markets</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Markets RZK</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Markets_RZK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Bausch Health Group Actual</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BauschHealth_x0020_group_x0020_actual</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Bausch Health Group Total</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BauschHealth_x0020_group_x0020_total</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Бренд 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>300</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Бренд</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>SKU Name</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>1301</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>SKU_x0020_name</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>SKU Конечное</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>1301</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>SKU_x0020_конечное</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Направление</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Направление</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Market Department</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>30</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>market_department</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Case Promotion</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>35</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>case_promotion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>HFM Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>15</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>HFM_x0020_code</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Код Group Level 6</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>15</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Код_x0020_Group_x0020_Level_x0020_6</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Is LS</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>IsLS</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>BH SKU Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BH_x0020_SKU_x0020_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Goods Category Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>GoodsCategoryId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Goods Section Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>GoodsSectionId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Classifier Id 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ClassifierId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Bhtaste</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>bhtaste</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>B Htaste Category</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BHtasteCategory</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>B Hform</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BHform</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>B Hpacksize</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BHpacksize</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>B Hagegroup</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BHagegroup</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension">
+          <CubeDimensionID>Брики ИД</CubeDimensionID>
+          <Cardinality>One</Cardinality>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Территория</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>fact_v_alpharm_DI_SKU</TableID>
+                    <ColumnID>brick_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Уровень территории</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>lvl</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Parent Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>parent_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Регион ОТС</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>25</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>Регион_x0020_ОТС</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Регион ОБП</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>Регион_x0020_ОБП</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Регион VC</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>Регион_x0020_VC</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Регион RX-OTX</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>Регион_x0020_RX-OTX</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Регион Ophtapharma</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>Регион_x0020_Ophtapharma</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Brick Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>brick_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension">
+          <CubeDimensionID>Периоды ИД</CubeDimensionID>
+          <Cardinality>One</Cardinality>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Период</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>fact_v_alpharm_DI_SKU</TableID>
+                    <ColumnID>period_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Год периода</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>4</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_periods</TableID>
+                    <ColumnID>yr</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Тип периода</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>4</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_periods</TableID>
+                    <ColumnID>period_type_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Parent Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_periods</TableID>
+                    <ColumnID>parent_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension">
+          <CubeDimensionID>Тип линейного ИД</CubeDimensionID>
+          <Cardinality>One</Cardinality>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Тип линейного индекса</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Boolean</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>fact_v_alpharm_DI_SKU</TableID>
+                    <ColumnID>diSellType</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions>
+        <Partition>
+          <ID>2019</ID>
+          <Name>2019</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.256667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.256667Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.74Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT [SKUid]
+      ,[brick_id]
+      ,[DistrIndex]
+      ,[diSellType]
+      ,[period_id]
+FROM [Datawarehouse].[fact].[v_alpharm_DI_SKU]
+WHERE [yr] = 2019</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>534120268</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2018</ID>
+          <Name>2018</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.286667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.286667Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.443333Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT [SKUid]
+      ,[brick_id]
+      ,[DistrIndex]
+      ,[diSellType]
+      ,[period_id]
+FROM [Datawarehouse].[fact].[v_alpharm_DI_SKU]
+WHERE [yr] = 2018</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>461358739</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2017</ID>
+          <Name>2017</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.303333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.303333Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.693333Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT [SKUid]
+      ,[brick_id]
+      ,[DistrIndex]
+      ,[diSellType]
+      ,[period_id]
+FROM [Datawarehouse].[fact].[v_alpharm_DI_SKU]
+WHERE [yr] = 2017</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>402653066</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2016</ID>
+          <Name>2016</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.303333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.303333Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.55Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT [SKUid]
+      ,[brick_id]
+      ,[DistrIndex]
+      ,[diSellType]
+      ,[period_id]
+FROM [Datawarehouse].[fact].[v_alpharm_DI_SKU]
+WHERE [yr] = 2016</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>393493734</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2015</ID>
+          <Name>2015</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.32Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.32Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.346667Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT [SKUid]
+      ,[brick_id]
+      ,[DistrIndex]
+      ,[diSellType]
+      ,[period_id]
+FROM [Datawarehouse].[fact].[v_alpharm_DI_SKU]
+WHERE [yr] = 2015</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>334636135</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2014</ID>
+          <Name>2014</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.32Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.32Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.846667Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT [SKUid]
+      ,[brick_id]
+      ,[DistrIndex]
+      ,[diSellType]
+      ,[period_id]
+FROM [Datawarehouse].[fact].[v_alpharm_DI_SKU]
+WHERE [yr] = 2014</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>246748035</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2020</ID>
+          <Name>2020</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.333333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.333333Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>2024-05-13T04:33:12.646667Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT [SKUid]
+      ,[brick_id]
+      ,[DistrIndex]
+      ,[diSellType]
+      ,[period_id]
+FROM [Datawarehouse].[fact].[v_alpharm_DI_SKU]
+WHERE [yr] = 2020</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>545853604</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>v Alpharm DI SKU</ID>
+          <Name>2021</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.35Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.35Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.506667Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT [SKUid]
+      ,[brick_id]
+      ,[DistrIndex]
+      ,[diSellType]
+      ,[period_id]
+FROM [Datawarehouse].[fact].[v_alpharm_DI_SKU]
+WHERE [yr] = 2021</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>550457926</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2022</ID>
+          <Name>2022</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.35Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.35Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>2024-05-13T04:33:12.786667Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT [SKUid]
+      ,[brick_id]
+      ,[DistrIndex]
+      ,[diSellType]
+      ,[period_id]
+FROM [Datawarehouse].[fact].[v_alpharm_DI_SKU]
+WHERE [yr] = 2022</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>511215751</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2023</ID>
+          <Name>2023</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.366667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.366667Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>2024-05-13T04:33:12.596667Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT [SKUid]
+      ,[brick_id]
+      ,[DistrIndex]
+      ,[diSellType]
+      ,[period_id]
+FROM [Datawarehouse].[fact].[v_alpharm_DI_SKU]
+WHERE [yr] = 2023</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>1220424298</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2024</ID>
+          <Name>2024</Name>
+          <CreatedTimestamp>2024-02-19T08:31:26.983333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2024-02-19T08:31:26.983333Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>2024-05-13T04:33:12.396667Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT [SKUid]
+      ,[brick_id]
+      ,[DistrIndex]
+      ,[diSellType]
+      ,[period_id]
+FROM [Datawarehouse].[fact].[v_alpharm_DI_SKU]
+WHERE [yr] = 2024</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>298441165</EstimatedSize>
+        </Partition>
+      </Partitions>
+      <ProactiveCaching>
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Source xsi:type="ProactiveCachingInheritedBinding" />
+      </ProactiveCaching>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Взвешенный индекс дистрибьюции</ID>
+      <Name>Взвешенный ИД SKU</Name>
+      <CreatedTimestamp>2023-02-04T10:22:31.383333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2023-02-04T10:22:31.383333Z</LastSchemaUpdate>
+      <LastProcessed>2024-05-13T04:33:12.926667Z</LastProcessed>
+      <State>Processed</State>
+      <Measures>
+        <Measure>
+          <ID>Distr Index</ID>
+          <Name>Weighted DI SKU</Name>
+          <AggregateFunction>None</AggregateFunction>
+          <DataType>Double</DataType>
+          <Source>
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding">
+              <TableID>fact_v_alpharm_WDI</TableID>
+              <ColumnID>DistrIndex</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+          <FormatString>#,##0.0%</FormatString>
+        </Measure>
+        <Measure>
+          <ID>Взвешенный ИД SKU Count</ID>
+          <Name>Взвешенный ИД SKU Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source>
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding">
+              <TableID>fact_v_alpharm_WDI</TableID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+          <FormatString>#,##0</FormatString>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedSize>24461969494</EstimatedSize>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension">
+          <CubeDimensionID>Тип взвешенного ИД</CubeDimensionID>
+          <Cardinality>One</Cardinality>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Тип взвешенного индекса</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>fact_v_alpharm_WDI</TableID>
+                    <ColumnID>wdiSellType</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension">
+          <CubeDimensionID>Брики ИД</CubeDimensionID>
+          <Cardinality>One</Cardinality>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Территория</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>fact_v_alpharm_WDI</TableID>
+                    <ColumnID>brick_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Уровень территории</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>lvl</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Parent Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>parent_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Регион ОТС</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>25</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>Регион_x0020_ОТС</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Регион ОБП</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>Регион_x0020_ОБП</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Регион VC</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>Регион_x0020_VC</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Регион RX-OTX</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>Регион_x0020_RX-OTX</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Регион Ophtapharma</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>Регион_x0020_Ophtapharma</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Brick Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_bricks_flat</TableID>
+                    <ColumnID>brick_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension">
+          <CubeDimensionID>Периоды ИД</CubeDimensionID>
+          <Cardinality>One</Cardinality>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Период</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>fact_v_alpharm_WDI</TableID>
+                    <ColumnID>period_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Год периода</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>4</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_periods</TableID>
+                    <ColumnID>yr</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Тип периода</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>4</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_periods</TableID>
+                    <ColumnID>period_type_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Parent Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_DI_periods</TableID>
+                    <ColumnID>parent_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension">
+          <CubeDimensionID>Справочник АльфаРМ</CubeDimensionID>
+          <Cardinality>One</Cardinality>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Classifier Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>fact_v_alpharm_WDI</TableID>
+                    <ColumnID>SKUid</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Trade Name Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>TradeNameId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>INN Group Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>INNGroupId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Dosage Group Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>DosageGroupId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Form Product Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>FormProductId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Consumer Packing Count</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ConsumerPackingCount</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Owner Trade Mark Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>OwnerTradeMarkId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Is Bad</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>IsBad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>FTG Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>FTGId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Who Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCWhoCode</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Packer Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>PackerId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Drug Description</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>1000</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>DrugDescription</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Brand Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>300</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Brand</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Owner Registration Certificate Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>OwnerRegistrationCertificateId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Ephmra Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCEphmraCode</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Corporation Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>300</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Corporation</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Localization Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>LocalizationId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Is Other</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>IsOther</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Baa Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCBaaCode</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>NFC Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>NFCCode</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Total Volume Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>TotalVolumeId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Total Volume Count</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>TotalVolumeCount</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Ephmra Value Level1</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCEphmra_Value_level1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Ephmra Value Level2</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCEphmra_Value_level2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Ephmra Value Level3</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCEphmra_Value_level3</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Ephmra Value Level4</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCEphmra_Value_level4</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATCBAA Value Level1</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCBAA_Value_level1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATCBAA Value Level2</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCBAA_Value_level2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>NFC Value Level1</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>NFC_Value_level1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>NFC Value Level2</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>NFC_Value_level2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>NFC Value Level3</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>NFC_Value_level3</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Who Value Level1</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCWho_Value_level1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Who Value Level2</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCWho_Value_level2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Who Value Level3</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCWho_Value_level3</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Who Value Level4</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCWho_Value_level4</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>ATC Who Value Level5</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ATCWho_Value_level5</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>SKU</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>1024</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>SKU</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Is Otc</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>IsOtc</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Is Rx</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>IsRx</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Markets</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Markets</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Markets RZK</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Markets_RZK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Bausch Health Group Actual</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BauschHealth_x0020_group_x0020_actual</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Bausch Health Group Total</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BauschHealth_x0020_group_x0020_total</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Бренд 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>300</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Бренд</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>SKU Name</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>1301</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>SKU_x0020_name</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>SKU Конечное</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>1301</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>SKU_x0020_конечное</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Направление</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Направление</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Market Department</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>30</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>market_department</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Case Promotion</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>35</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>case_promotion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>HFM Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>15</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>HFM_x0020_code</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Код Group Level 6</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>15</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>Код_x0020_Group_x0020_Level_x0020_6</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Is LS</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>IsLS</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>BH SKU Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BH_x0020_SKU_x0020_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Goods Category Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>GoodsCategoryId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Goods Section Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>GoodsSectionId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Classifier Id 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>ClassifierId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Bhtaste</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>bhtaste</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>B Htaste Category</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BHtasteCategory</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>B Hform</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BHform</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>B Hpacksize</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BHpacksize</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>B Hagegroup</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dim_v_alpha_big_tmp</TableID>
+                    <ColumnID>BHagegroup</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions>
+        <Partition>
+          <ID>2019</ID>
+          <Name>2019</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.396667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.396667Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.77Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT 
+	[SKUid]
+	,[brick_id]
+	,[DistrIndex]
+	,[wdiSellType]
+	,[period_id]
+FROM [fact].[v_alpharm_WDI]
+WHERE yr = 2019</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>2854256887</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2018</ID>
+          <Name>2018</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.413333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.413333Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>2024-05-13T04:33:12.41Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT 
+	[SKUid]
+	,[brick_id]
+	,[DistrIndex]
+	,[wdiSellType]
+	,[period_id]
+FROM [fact].[v_alpharm_WDI]
+WHERE yr = 2018</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>1378332994</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2017</ID>
+          <Name>2017</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.43Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.43Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.536667Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT 
+	[SKUid]
+	,[brick_id]
+	,[DistrIndex]
+	,[wdiSellType]
+	,[period_id]
+FROM [fact].[v_alpharm_WDI]
+WHERE yr = 2017</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>1225753077</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2016</ID>
+          <Name>2016</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.43Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.43Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.363333Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT 
+	[SKUid]
+	,[brick_id]
+	,[DistrIndex]
+	,[wdiSellType]
+	,[period_id]
+FROM [fact].[v_alpharm_WDI]
+WHERE yr = 2016</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>1255930442</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2015</ID>
+          <Name>2015</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.443333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.443333Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.706667Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT 
+	[SKUid]
+	,[brick_id]
+	,[DistrIndex]
+	,[wdiSellType]
+	,[period_id]
+FROM [fact].[v_alpharm_WDI]
+WHERE yr = 2015</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>1107453371</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2014</ID>
+          <Name>2014</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.46Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.46Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.583333Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT 
+	[SKUid]
+	,[brick_id]
+	,[DistrIndex]
+	,[wdiSellType]
+	,[period_id]
+FROM [fact].[v_alpharm_WDI]
+WHERE yr = 2014</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>1137782606</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2020</ID>
+          <Name>2020</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.46Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.46Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>2024-05-13T04:33:12.816667Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT 
+	[SKUid]
+	,[brick_id]
+	,[DistrIndex]
+	,[wdiSellType]
+	,[period_id]
+FROM [fact].[v_alpharm_WDI]
+WHERE yr = 2020</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>3115179503</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2021</ID>
+          <Name>2021</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.476667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.476667Z</LastSchemaUpdate>
+          <LastProcessed>2024-05-13T04:33:12.88Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT 
+	[SKUid]
+	,[brick_id]
+	,[DistrIndex]
+	,[wdiSellType]
+	,[period_id]
+FROM [fact].[v_alpharm_WDI]
+WHERE yr = 2021</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>3744379432</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2022</ID>
+          <Name>2022</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.49Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.49Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>2024-05-13T04:33:12.63Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT 
+	[SKUid]
+	,[brick_id]
+	,[DistrIndex]
+	,[wdiSellType]
+	,[period_id]
+FROM [fact].[v_alpharm_WDI]
+WHERE yr = 2022</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>3458801961</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2023</ID>
+          <Name>2023</Name>
+          <CreatedTimestamp>2023-02-04T10:22:31.49Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-02-04T10:22:31.49Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>2024-05-13T04:33:12.473333Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT 
+	[SKUid]
+	,[brick_id]
+	,[DistrIndex]
+	,[wdiSellType]
+	,[period_id]
+FROM [fact].[v_alpharm_WDI]
+WHERE yr = 2023</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>4139947997</EstimatedSize>
+        </Partition>
+        <Partition>
+          <ID>2024</ID>
+          <Name>2024</Name>
+          <CreatedTimestamp>2024-02-19T08:31:00.286667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2024-02-19T08:31:00.286667Z</LastSchemaUpdate>
+          <Annotations>
+            <Annotation>
+              <Name>AggregationPercent</Name>
+            </Annotation>
+          </Annotations>
+          <LastProcessed>2024-05-13T04:33:12.926667Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="QueryBinding">
+            <DataSourceID>Datawarehouse</DataSourceID>
+            <QueryDefinition>SELECT 
+	[SKUid]
+	,[brick_id]
+	,[DistrIndex]
+	,[wdiSellType]
+	,[period_id]
+FROM [fact].[v_alpharm_WDI]
+WHERE yr = 2024</QueryDefinition>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>1044151224</EstimatedSize>
+        </Partition>
+      </Partitions>
+      <ProactiveCaching>
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Source xsi:type="ProactiveCachingInheritedBinding" />
+      </ProactiveCaching>
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source>
+    <DataSourceViewID>Datawarehouse</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript>
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>2023-02-04T10:22:31.506667Z</CreatedTimestamp>
+      <LastSchemaUpdate>2023-02-04T10:22:31.506667Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;
+
+CREATE MEMBER CURRENTCUBE.measures.[Линейный ИД SKU]
+ AS ( [Брики ИД].[Гео иерархия].currentmember.datamember
+    , linkmember ( [Брики ИД].[Гео иерархия].currentmember, [Брики ИД].[Brick ID] )
+    , [Периоды ИД].[Иерархия периодов].currentmember.datamember
+    , [Measures].[Simple DI SKU]
+   ), 
+FORMAT_STRING = "#,##0.0%", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Линейный ИД SKU';  
+
+CREATE MEMBER CURRENTCUBE.measures.[Взвешенный ИД SKU]
+ AS ( [Брики ИД].[Гео иерархия].currentmember.datamember
+    , linkmember ( [Брики ИД].[Гео иерархия].currentmember, [Брики ИД].[Brick ID] )
+    , [Периоды ИД].[Иерархия периодов].currentmember.datamember
+    , [Measures].[Weighted DI SKU]
+   ), 
+FORMAT_STRING = "#,##0.0%", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Взвешенный ИД SKU';  
+
+create member currentcube.measures.GeoHierCurr as
+[Брики ИД].[Гео иерархия].currentmember.datamember.unique_name
+, visible = 0;
+
+create member currentcube.measures.PeriodCurr as
+[Периоды ИД].[Иерархия периодов].currentmember.datamember.unique_name
+,visible = 0;</Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+</Cube>

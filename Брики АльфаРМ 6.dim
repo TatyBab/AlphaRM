@@ -1,0 +1,602 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Брики АльфаРМ</ID>
+  <Name>Брики АльфаРМ 6</Name>
+  <CreatedTimestamp>2023-02-04T10:22:30.383333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2023-02-04T10:22:30.383333Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2666" scrolltop="-5914" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9499" y="13944" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_alpha_bricks_tmp" left="-985" top="-5107" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="6033" height="14261" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c000091170000b5370000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dim_v_alpha_bricks_tmp" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2666</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5914</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-985</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-5107</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="102">
+            <Shape Id="Brickid" Expanded="true">
+              <Attributes>
+                <Attribute Id="Brickid" />
+                <Attribute Id="Postindex" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Brick Level6 Id 5plus" Expanded="true">
+              <Attributes>
+                <Attribute Id="Brick Level6 Id 5plus" />
+              </Attributes>
+              <Position x="152" y="20" />
+            </Shape>
+            <Shape Id="Brick Lefel5id" Expanded="true">
+              <Attributes>
+                <Attribute Id="Brick Lefel5id" />
+              </Attributes>
+              <Position x="285" y="20" />
+            </Shape>
+            <Shape Id="Brick Level4 Id" Expanded="true">
+              <Attributes>
+                <Attribute Id="Brick Level4 Id" />
+              </Attributes>
+              <Position x="417" y="20" />
+            </Shape>
+            <Shape Id="Brick Level3id" Expanded="true">
+              <Attributes>
+                <Attribute Id="Brick Level3id" />
+                <Attribute Id="Регион Ophtapharma" />
+                <Attribute Id="Регион RX-OTX" />
+                <Attribute Id="Регион VC" />
+                <Attribute Id="Регион ОБП" />
+                <Attribute Id="Регион ОТС" />
+                <Attribute Id="Субъект РФ 1" />
+              </Attributes>
+              <Position x="550" y="20" />
+            </Shape>
+            <Shape Id="Brick Level2id" Expanded="true">
+              <Attributes>
+                <Attribute Id="Brick Level2id" />
+                <Attribute Id="L1id" />
+              </Attributes>
+              <Position x="682" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2024-05-03T10:23:21.683333Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>Datawarehouse</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration>
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Cyrillic_General_CI_AS</Collation>
+  <UnknownMemberName>Неизвестно</UnknownMemberName>
+  <Attributes>
+    <Attribute>
+      <ID>Brickid</ID>
+      <Name>Brickid</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>51223</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>brickid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>brickid</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Brick Level6 Id 5plus</AttributeID>
+          <Name>Брик ур 6</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Postindex</AttributeID>
+          <Name>Почтовый индекс</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Postindex</ID>
+      <Name>Почтовый индекс</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>post.index</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>post.index</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>L1id</ID>
+      <Name>Страна</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>L1.id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>L1.label</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Brick Level2id</ID>
+      <Name>Федеральный округ</Name>
+      <EstimatedCount>8</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>511</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>brickLevel2id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>L2.label</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>L1id</AttributeID>
+          <Name>Страна</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Brick Level3id</ID>
+      <Name>Субъект РФ</Name>
+      <EstimatedCount>86</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>767</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>brickLevel3id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>L3.label</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Brick Level2id</AttributeID>
+          <Name>Федеральный округ</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Регион Ophtapharma</AttributeID>
+          <Name>Регион Ophtapharma</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Регион RX-OTX</AttributeID>
+          <Name>Регион RX-OTX</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Регион VC</AttributeID>
+          <Name>Регион VC</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Регион ОБП</AttributeID>
+          <Name>Регион ОБП</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Регион ОТС</AttributeID>
+          <Name>Регион ОТС</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Субъект РФ 1</AttributeID>
+          <Name>Субъект РФ BH</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Brick Level4 Id</ID>
+      <Name>Брик ур 4</Name>
+      <EstimatedCount>2455</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1023</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>brickLevel4Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>L4.label</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Brick Level3id</AttributeID>
+          <Name>Субъект РФ</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Brick Lefel5id</ID>
+      <Name>Брик ур 5</Name>
+      <EstimatedCount>50611</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>brickLefel5id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>L5.label</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Brick Level4 Id</AttributeID>
+          <Name>Брик ур 4</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Brick Level6 Id 5plus</ID>
+      <Name>Брик ур 6</Name>
+      <EstimatedCount>51223</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>brickLevel6Id_5plus</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>L6.label</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Brick Lefel5id</AttributeID>
+          <Name>Брик ур 5</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Регион ОТС</ID>
+      <Name>Регион ОТС</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>Регион_x0020_ОТС</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>25</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>Регион_x0020_ОТС</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Регионы BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Регион ОБП</ID>
+      <Name>Регион ОБП</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>Регион_x0020_ОБП</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>Регион_x0020_ОБП</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Регионы BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Регион VC</ID>
+      <Name>Регион VC</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>Регион_x0020_VC</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>Регион_x0020_VC</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Регионы BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Регион RX-OTX</ID>
+      <Name>Регион RX-OTX</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>Регион_x0020_RX-OTX</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>Регион_x0020_RX-OTX</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Регионы BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Регион Ophtapharma</ID>
+      <Name>Регион Ophtapharma</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>Регион_x0020_Ophtapharma</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>Регион_x0020_Ophtapharma</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Регионы BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Субъект РФ 1</ID>
+      <Name>Субъект РФ BH</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_bricks_tmp</TableID>
+            <ColumnID>Субъект_x0020_РФ</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_bricks_tmp</TableID>
+          <ColumnID>Субъект_x0020_РФ</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Регионы BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>Иерархия бриков</Name>
+      <AllMemberName>Вся Россия</AllMemberName>
+      <Levels>
+        <Level>
+          <ID>Федеральный округ</ID>
+          <Name>Федеральный округ</Name>
+          <SourceAttributeID>Brick Level2id</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Субъект РФ</ID>
+          <Name>Субъект РФ</Name>
+          <SourceAttributeID>Brick Level3id</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Брик ур 4</ID>
+          <Name>Брик ур 4</Name>
+          <SourceAttributeID>Brick Level4 Id</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Брик ур 5</ID>
+          <Name>Брик ур 5</Name>
+          <SourceAttributeID>Brick Lefel5id</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Брик ур 6</ID>
+          <Name>Брик ур 6</Name>
+          <SourceAttributeID>Brick Level6 Id 5plus</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

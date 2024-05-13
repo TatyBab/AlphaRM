@@ -1,0 +1,1902 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Справочник АльфаРМ ОФД</ID>
+  <Name>Справочник АльфаРМ ОФД</Name>
+  <CreatedTimestamp>2023-02-04T10:22:30.413333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2023-02-04T10:22:30.413333Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1859" scrolltop="-15707" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11060" y="16060" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_alpha_OFD_classif" left="-1540" top="-13520" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="6192" height="25638" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003018000026640000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dim_v_alpha_OFD_classif" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1859</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-15707</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1540</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-13520</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="6" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="201">
+            <Shape Id="Classifier Id" Expanded="true">
+              <Attributes>
+                <Attribute Id="Classifier Id" />
+                <Attribute Id="Case Promotion" />
+                <Attribute Id="Bausch Health Group Actual" />
+                <Attribute Id="Bausch Health Group Total" />
+                <Attribute Id="HFM Code" />
+                <Attribute Id="Market Department" />
+                <Attribute Id="Markets" />
+                <Attribute Id="Markets RZK" />
+                <Attribute Id="SKU Конечное" />
+                <Attribute Id="BH SKU Id" />
+                <Attribute Id="SKU Name" />
+                <Attribute Id="Бренд" />
+                <Attribute Id="Код Group Level 6" />
+                <Attribute Id="Направление" />
+                <Attribute Id="Brand" />
+                <Attribute Id="Corporation" />
+                <Attribute Id="Dosage Group" />
+                <Attribute Id="Drug Description" />
+                <Attribute Id="Drug Id" />
+                <Attribute Id="Form Product" />
+                <Attribute Id="FTG" />
+                <Attribute Id="INN Group" />
+                <Attribute Id="Is Otc Name" />
+                <Attribute Id="Owner Registration Certificate" />
+                <Attribute Id="Owner Trade Mark" />
+                <Attribute Id="Packer" />
+                <Attribute Id="Is Rx Name" />
+                <Attribute Id="Trade Name" />
+                <Attribute Id="BA Dname" />
+                <Attribute Id="Is L Sname" />
+                <Attribute Id="Is Other Name" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="ATC Ephmra Value Level4" Expanded="true">
+              <Attributes>
+                <Attribute Id="ATC Ephmra Value Level4" />
+              </Attributes>
+              <Position x="276" y="20" />
+            </Shape>
+            <Shape Id="ATC Ephmra Value Level3" Expanded="true">
+              <Attributes>
+                <Attribute Id="ATC Ephmra Value Level3" />
+              </Attributes>
+              <Position x="532" y="20" />
+            </Shape>
+            <Shape Id="ATC Ephmra Value Level2" Expanded="true">
+              <Attributes>
+                <Attribute Id="ATC Ephmra Value Level2" />
+              </Attributes>
+              <Position x="788" y="20" />
+            </Shape>
+            <Shape Id="ATC Ephmra Value Level1" Expanded="false">
+              <Attributes>
+                <Attribute Id="ATC Ephmra Value Level1" />
+              </Attributes>
+              <Position x="1045" y="20" />
+            </Shape>
+            <Shape Id="ATCBAA Value Level2" Expanded="true">
+              <Attributes>
+                <Attribute Id="ATCBAA Value Level2" />
+              </Attributes>
+              <Position x="276" y="68" />
+            </Shape>
+            <Shape Id="ATCBAA Value Level1" Expanded="false">
+              <Attributes>
+                <Attribute Id="ATCBAA Value Level1" />
+              </Attributes>
+              <Position x="532" y="68" />
+            </Shape>
+            <Shape Id="NFC Value Level3" Expanded="true">
+              <Attributes>
+                <Attribute Id="NFC Value Level3" />
+              </Attributes>
+              <Position x="276" y="116" />
+            </Shape>
+            <Shape Id="NFC Value Level2" Expanded="true">
+              <Attributes>
+                <Attribute Id="NFC Value Level2" />
+              </Attributes>
+              <Position x="532" y="116" />
+            </Shape>
+            <Shape Id="NFC Value Level1" Expanded="false">
+              <Attributes>
+                <Attribute Id="NFC Value Level1" />
+              </Attributes>
+              <Position x="788" y="116" />
+            </Shape>
+            <Shape Id="ATC Who Value Level5" Expanded="true">
+              <Attributes>
+                <Attribute Id="ATC Who Value Level5" />
+              </Attributes>
+              <Position x="276" y="164" />
+            </Shape>
+            <Shape Id="ATC Who Value Level4" Expanded="true">
+              <Attributes>
+                <Attribute Id="ATC Who Value Level4" />
+              </Attributes>
+              <Position x="532" y="164" />
+            </Shape>
+            <Shape Id="ATC Who Value Level3" Expanded="true">
+              <Attributes>
+                <Attribute Id="ATC Who Value Level3" />
+              </Attributes>
+              <Position x="788" y="164" />
+            </Shape>
+            <Shape Id="ATC Who Value Level2" Expanded="true">
+              <Attributes>
+                <Attribute Id="ATC Who Value Level2" />
+              </Attributes>
+              <Position x="1045" y="164" />
+            </Shape>
+            <Shape Id="ATC Who Value Level1" Expanded="false">
+              <Attributes>
+                <Attribute Id="ATC Who Value Level1" />
+              </Attributes>
+              <Position x="1301" y="164" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2024-05-03T11:19:04.976667Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>Datawarehouse</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration>
+    <KeyErrorLimitAction>StopLogging</KeyErrorLimitAction>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Cyrillic_General_CI_AS</Collation>
+  <UnknownMemberName>-не определено-</UnknownMemberName>
+  <Attributes>
+    <Attribute>
+      <ID>Classifier Id</ID>
+      <Name>Classifier Id</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>76838</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>BigInt</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>ClassifierId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <NullProcessing>ZeroOrBlank</NullProcessing>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ClassifierId</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Drug Id</AttributeID>
+          <Name>Drug Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trade Name</AttributeID>
+          <Name>Trade Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>INN Group</AttributeID>
+          <Name>INN Group</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Dosage Group</AttributeID>
+          <Name>Dosage Group</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Form Product</AttributeID>
+          <Name>Form Product</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>FTG</AttributeID>
+          <Name>FTG</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Packer</AttributeID>
+          <Name>Packer</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Drug Description</AttributeID>
+          <Name>Drug Description</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Brand</AttributeID>
+          <Name>Brand</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Owner Registration Certificate</AttributeID>
+          <Name>Owner Registration Certificate</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Owner Trade Mark</AttributeID>
+          <Name>Owner Trade Mark</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Corporation</AttributeID>
+          <Name>Corporation</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Is L Sname</AttributeID>
+          <Name>ЛС</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Is Other Name</AttributeID>
+          <Name>Прочий ассортимент</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>BA Dname</AttributeID>
+          <Name>БАД</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Is Otc Name</AttributeID>
+          <Name>OTC</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Is Rx Name</AttributeID>
+          <Name>RX</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Case Promotion</AttributeID>
+          <Name>BH Case Promotion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Bausch Health Group Actual</AttributeID>
+          <Name>BH Group Actual</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Bausch Health Group Total</AttributeID>
+          <Name>BH Group Total</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>HFM Code</AttributeID>
+          <Name>BH HFM Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Market Department</AttributeID>
+          <Name>BH Market Department</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Markets</AttributeID>
+          <Name>BH Markets</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Markets RZK</AttributeID>
+          <Name>BH Markets RZK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>SKU Конечное</AttributeID>
+          <Name>BH SKU</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>BH SKU Id</AttributeID>
+          <Name>BH SKU Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>SKU Name</AttributeID>
+          <Name>BH SKU Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Бренд</AttributeID>
+          <Name>BH Бренд</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Код Group Level 6</AttributeID>
+          <Name>BH Код GL6</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Направление</AttributeID>
+          <Name>BH Направление</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>ATC Who Value Level5</AttributeID>
+          <Name>WHO ур 5</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>NFC Value Level3</AttributeID>
+          <Name>NFC ур 3</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>ATCBAA Value Level2</AttributeID>
+          <Name>BAA ур 2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>ATC Ephmra Value Level4</AttributeID>
+          <Name>Ephmra ур 4</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>B Htaste</AttributeID>
+          <Name>BH Категория Вкусы</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>B Htaste Category</AttributeID>
+          <Name>BH Вкусовые категории</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>B Hform</AttributeID>
+          <Name>BH Форма</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>B Hpacksize</AttributeID>
+          <Name>BH Размер упаковки</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>B Hagegroup</AttributeID>
+          <Name>BH Возрастные группы</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Drug Id</ID>
+      <Name>Drug Id</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>DrugId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>DrugId</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trade Name</ID>
+      <Name>Trade Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>300</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>TradeName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>300</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>TradeName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>INN Group</ID>
+      <Name>INN Group</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>INNGroup</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1024</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>INNGroup</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Dosage Group</ID>
+      <Name>Dosage Group</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>DosageGroup</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1024</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>DosageGroup</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Form Product</ID>
+      <Name>Form Product</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>FormProduct</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1024</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>FormProduct</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>FTG</ID>
+      <Name>FTG</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>FTG</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>FTG</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Packer</ID>
+      <Name>Packer</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>300</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>Packer</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>300</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>Packer</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Drug Description</ID>
+      <Name>Drug Description</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>DrugDescription</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1024</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>DrugDescription</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Brand</ID>
+      <Name>Brand</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>300</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>Brand</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>300</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>Brand</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Owner Registration Certificate</ID>
+      <Name>Owner Registration Certificate</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>300</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>OwnerRegistrationCertificate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>300</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>OwnerRegistrationCertificate</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Owner Trade Mark</ID>
+      <Name>Owner Trade Mark</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>300</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>OwnerTradeMark</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>300</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>OwnerTradeMark</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Corporation</ID>
+      <Name>Corporation</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>300</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>Corporation</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>300</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>Corporation</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник АльфаРМ</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Is L Sname</ID>
+      <Name>ЛС</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>IsLSname</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>3</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>IsLSname</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Признаки</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Is Other Name</ID>
+      <Name>Прочий ассортимент</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>isOtherName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>isOtherName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Признаки</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>BA Dname</ID>
+      <Name>БАД</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>BADname</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>BADname</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Признаки</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Is Otc Name</ID>
+      <Name>OTC</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>IsOtcName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>IsOtcName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Признаки</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Is Rx Name</ID>
+      <Name>RX</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>IsRxName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>IsRxName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Признаки</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Case Promotion</ID>
+      <Name>BH Case Promotion</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>35</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>case_promotion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>35</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>case_promotion</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Bausch Health Group Actual</ID>
+      <Name>BH Group Actual</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>BauschHealth_x0020_group_x0020_actual</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>BauschHealth_x0020_group_x0020_actual</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Bausch Health Group Total</ID>
+      <Name>BH Group Total</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>BauschHealth_x0020_group_x0020_total</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>BauschHealth_x0020_group_x0020_total</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>HFM Code</ID>
+      <Name>BH HFM Code</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>HFM_x0020_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>15</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>HFM_x0020_code</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Market Department</ID>
+      <Name>BH BU</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>market_department</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>market_department</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Markets</ID>
+      <Name>BH Markets</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>Markets</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>Markets</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Markets RZK</ID>
+      <Name>BH Markets RZK</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>Markets_RZK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>Markets_RZK</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>SKU Конечное</ID>
+      <Name>BH SKU</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>SKU_x0020_конечное</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1024</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>SKU_x0020_конечное</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>BH SKU Id</ID>
+      <Name>BH SKU Id</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>BH_x0020_SKU_x0020_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>BH_x0020_SKU_x0020_id</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>SKU Name</ID>
+      <Name>BH SKU Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>SKU_x0020_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1024</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>SKU_x0020_name</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Бренд</ID>
+      <Name>BH Бренд</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>303</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>Бренд</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>303</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>Бренд</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Код Group Level 6</ID>
+      <Name>BH Код GL6</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>Код_x0020_Group_x0020_Level_x0020_6</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>15</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>Код_x0020_Group_x0020_Level_x0020_6</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Направление</ID>
+      <Name>BH Направление</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>Направление</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>Направление</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>ATC Who Value Level1</ID>
+      <Name>WHO ур 1</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>ATCWho_Value_level1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCWho_Description_level1</ColumnID>
+        </Source>
+      </NameColumn>
+      <ValueColumn>
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCWho_Id_level1</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>ATC Who Value Level2</ID>
+      <Name>WHO ур 2</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>ATCWho_Value_level2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCWho_Description_level2</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>ATC Who Value Level1</AttributeID>
+          <Name>WHO ур 1</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn>
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCWho_Id_level2</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>ATC Who Value Level3</ID>
+      <Name>WHO ур 3</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>ATCWho_Value_level3</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCWho_Description_level3</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>ATC Who Value Level2</AttributeID>
+          <Name>WHO ур 2</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn>
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCWho_Id_level3</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>ATC Who Value Level4</ID>
+      <Name>WHO ур 4</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>ATCWho_Value_level4</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCWho_Description_level4</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>ATC Who Value Level3</AttributeID>
+          <Name>WHO ур 3</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn>
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCWho_Id_level4</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>ATC Who Value Level5</ID>
+      <Name>WHO ур 5</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>ATCWho_Value_level5</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCWho_Description_level5</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>ATC Who Value Level4</AttributeID>
+          <Name>WHO ур 4</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn>
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCWho_Id_level5</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>ATC Ephmra Value Level1</ID>
+      <Name>Ephmra ур 1</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>ATCEphmra_Value_level1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCEphmra_Description_level1</ColumnID>
+        </Source>
+      </NameColumn>
+      <ValueColumn>
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCEphmra_Id_level1</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>ATC Ephmra Value Level2</ID>
+      <Name>Ephmra ур 2</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>ATCEphmra_Value_level2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCEphmra_Description_level2</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>ATC Ephmra Value Level1</AttributeID>
+          <Name>Ephmra ур 1</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn>
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCEphmra_Id_level2</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>ATC Ephmra Value Level3</ID>
+      <Name>Ephmra ур 3</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>ATCEphmra_Value_level3</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCEphmra_Description_level3</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>ATC Ephmra Value Level2</AttributeID>
+          <Name>Ephmra ур 2</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn>
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCEphmra_Id_level3</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>ATC Ephmra Value Level4</ID>
+      <Name>Ephmra ур 4</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>ATCEphmra_Value_level4</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCEphmra_Description_level4</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>ATC Ephmra Value Level3</AttributeID>
+          <Name>Ephmra ур 3</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn>
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCEphmra_Id_level4</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>NFC Value Level1</ID>
+      <Name>NFC ур 1</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>NFC_Value_level1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>NFC_Description_level1</ColumnID>
+        </Source>
+      </NameColumn>
+      <ValueColumn>
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>NFC_Id_level1</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>NFC Value Level2</ID>
+      <Name>NFC ур 2</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>NFC_Value_level2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>NFC_Description_level2</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>NFC Value Level1</AttributeID>
+          <Name>NFC ур 1</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn>
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>NFC_Id_level2</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>NFC Value Level3</ID>
+      <Name>NFC ур 3</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>NFC_Value_level3</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>NFC_Description_level3</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>NFC Value Level2</AttributeID>
+          <Name>NFC ур 2</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn>
+        <DataType>BigInt</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>NFC_Id_level3</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>ATCBAA Value Level1</ID>
+      <Name>BAA ур 1</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>ATCBAA_Value_level1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCBAA_Description_level1</ColumnID>
+        </Source>
+      </NameColumn>
+      <ValueColumn>
+        <DataType>Integer</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCBAA_Id_level1</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>ATCBAA Value Level2</ID>
+      <Name>BAA ур 2</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>ATCBAA_Value_level2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>268</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCBAA_Description_level2</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>ATCBAA Value Level1</AttributeID>
+          <Name>BAA ур 1</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ValueColumn>
+        <DataType>Integer</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>ATCBAA_Id_level2</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyDisplayFolder>Уровни иерархий</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>B Htaste</ID>
+      <Name>BH Категория Вкусы</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>BHtaste</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>BHtaste</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH\Вкусы</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>B Htaste Category</ID>
+      <Name>BH Вкусовые категории</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>BHtasteCategory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>BHtasteCategory</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH\Вкусы</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>B Hform</ID>
+      <Name>BH Форма</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>BHform</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>BHform</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH\Вкусы</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>B Hpacksize</ID>
+      <Name>BH Размер упаковки</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>BHpacksize</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>BHpacksize</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH\Вкусы</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>B Hagegroup</ID>
+      <Name>BH Возрастные группы</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dim_v_alpha_OFD_classif</TableID>
+            <ColumnID>BHagegroup</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dim_v_alpha_OFD_classif</TableID>
+          <ColumnID>BHagegroup</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyDisplayFolder>Справочник BH\Вкусы</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>Иерархия NFC</Name>
+      <AllMemberName>Все NFC</AllMemberName>
+      <Levels>
+        <Level>
+          <ID>NFC ур 1</ID>
+          <Name>NFC ур 1</Name>
+          <SourceAttributeID>NFC Value Level1</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>NFC ур 2</ID>
+          <Name>NFC ур 2</Name>
+          <SourceAttributeID>NFC Value Level2</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>NFC ур 3</ID>
+          <Name>NFC ур 3</Name>
+          <SourceAttributeID>NFC Value Level3</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 1</ID>
+      <Name>Иерархия BAA</Name>
+      <AllMemberName>Все BAA</AllMemberName>
+      <Levels>
+        <Level>
+          <ID>BAA ур 1</ID>
+          <Name>BAA ур 1</Name>
+          <SourceAttributeID>ATCBAA Value Level1</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>BAA ур 2</ID>
+          <Name>BAA ур 2</Name>
+          <SourceAttributeID>ATCBAA Value Level2</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 2</ID>
+      <Name>Иерархия Ephmra</Name>
+      <AllMemberName>Все Ephmra</AllMemberName>
+      <Levels>
+        <Level>
+          <ID>Ephmra ур 1</ID>
+          <Name>Ephmra ур 1</Name>
+          <SourceAttributeID>ATC Ephmra Value Level1</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Ephmra ур 2</ID>
+          <Name>Ephmra ур 2</Name>
+          <SourceAttributeID>ATC Ephmra Value Level2</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Ephmra ур 3</ID>
+          <Name>Ephmra ур 3</Name>
+          <SourceAttributeID>ATC Ephmra Value Level3</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>Ephmra ур 4</ID>
+          <Name>Ephmra ур 4</Name>
+          <SourceAttributeID>ATC Ephmra Value Level4</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 3</ID>
+      <Name>Иерархия WHO</Name>
+      <AllMemberName>Все WHO</AllMemberName>
+      <Levels>
+        <Level>
+          <ID>WHO ур 1</ID>
+          <Name>WHO ур 1</Name>
+          <SourceAttributeID>ATC Who Value Level1</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>WHO ур 2</ID>
+          <Name>WHO ур 2</Name>
+          <SourceAttributeID>ATC Who Value Level2</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>WHO ур 3</ID>
+          <Name>WHO ур 3</Name>
+          <SourceAttributeID>ATC Who Value Level3</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>WHO ур 4</ID>
+          <Name>WHO ур 4</Name>
+          <SourceAttributeID>ATC Who Value Level4</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+        <Level>
+          <ID>WHO ур 5</ID>
+          <Name>WHO ур 5</Name>
+          <SourceAttributeID>ATC Who Value Level5</SourceAttributeID>
+          <HideMemberIf>OnlyChildWithParentName</HideMemberIf>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
